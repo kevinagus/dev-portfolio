@@ -1,6 +1,4 @@
-import React from 'react';
-
-function Home(){
+const Home: React.FC = () => {
     return (
         <p>This is my Home</p>
     )

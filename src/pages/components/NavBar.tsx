@@ -1,4 +1,4 @@
-function NavBar() {
+const NavBar : React.FC = () => {
     return <>
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
@@ -13,6 +13,12 @@ function NavBar() {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contact</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Skills</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Project</a>
                         </li>
                     </ul>
                 </div>
